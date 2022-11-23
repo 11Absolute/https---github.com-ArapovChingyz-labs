@@ -101,6 +101,7 @@ p {
 .pusing {
     font-size: 1.1rem;
     line-height: 1.8rem;
+    color: var(--white-color);
 }
 
 .psolutions {
