@@ -2,9 +2,45 @@
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
     --white-color: #FFFFFF;
     --black-color: #000000;
     background-color: #678FF2;  
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 2.2rem;
+}
+
+.afirst {
+    font-size: 2.3rem;
+}
+
+.asecond {
+    font-size: 2rem;
+}
+
+.athird {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+button {
+    font-size: 2.6rem;
+    color: var(--white-color);
+}
+
+.buttonaccept {
+    font-size: 3rem;
+    line-height: 1.4rem;
+    color: var(--black-color);
+}
+
+h1 {
+    visibility: hidden;
 }
 
 h2 {
@@ -12,8 +48,78 @@ h2 {
     color: var(--white-color);
 }
 
+.h2required {
+    visibility: hidden;
+}
+
+.h2first {
+    font-size: 4rem;
+}
+
+.h2advantage {
+    line-height: 1.4rem;
+}
+
 .h2last {
+    line-height: 4rem;
     color: var(--black-color);
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.h3first {
+    color: var(--white-color);
+}
+
+.h3next2 {
+    line-height: 1.8rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.pwhen {
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 4rem;
+}
+
+.pscroll {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.pwe {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.pusing {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.psolutions {
+    line-height: 1.4rem;
+}
+
+.padvantage {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.pcomment {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.pfooter {
+    font-size: 1.4rem;
+    line-height: 3rem;
 }
 
 header {
