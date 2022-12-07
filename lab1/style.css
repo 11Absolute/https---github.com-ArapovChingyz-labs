@@ -6,7 +6,12 @@
     line-height: 3rem;
     --white-color: #FFFFFF;
     --black-color: #000000;
-    background-color: #678FF2;  
+    background-color: #678FF2; 
+    box-sizing: border-box; 
+}
+
+*, :before, :after {
+    box-sizing: inherit;
 }
 
 a {
@@ -20,7 +25,15 @@ a {
 }
 
 .asecond {
+    background-color: var(--black-color);
+    border-radius: 90px;
     font-size: 2rem;
+    padding: 0.9em;
+    display: block;
+    position: relative;
+    margin-top: 10.2rem;
+    margin-left: 3.1rem;
+    text-align: center;
 }
 
 .athird {
@@ -28,8 +41,8 @@ a {
     line-height: 2.5rem;
 }
 
-button {
-    font-size: 2.6rem;
+.buttonlanguage {
+    font-size: 2.2rem;
     color: var(--white-color);
 }
 
@@ -37,6 +50,11 @@ button {
     font-size: 3rem;
     line-height: 1.4rem;
     color: var(--black-color);
+}
+
+.buttonsent {
+    font-size: 2.6rem;
+    color: var(--white-color);
 }
 
 h1 {
@@ -86,6 +104,11 @@ p {
     font-weight: 700;
     font-size: 4.5rem;
     line-height: 4rem;
+    padding-top: 14.3rem;
+    width: 75%;
+    min-width: 375px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .pscroll {
