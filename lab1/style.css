@@ -1,11 +1,12 @@
 :root {
     font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 3rem;
     --white-color: #FFFFFF;
     --black-color: #000000;
+    --visibility-color: rgba(255, 255, 255, .1);
     background-color: #678FF2; 
     box-sizing: border-box; 
 }
@@ -14,10 +15,34 @@
     box-sizing: inherit;
 }
 
+article {
+    background-color: var(--visibility-color);
+    border-radius: 2rem;
+    margin-left: 3rem;
+    margin-right: 2.9rem;
+    margin-top: 6.7rem;
+}
+
+form {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.inputform {
+    font-size: 1.5rem;
+    border-radius: 9rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    padding-left: 2.8rem;
+    padding-right: 10rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.8rem;
+    margin-top: 2.1rem;
+}
+
 a {
     text-decoration: none;
     color: var(--white-color);
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .afirst {
@@ -26,19 +51,40 @@ a {
 
 .asecond {
     background-color: var(--black-color);
-    border-radius: 90px;
-    font-size: 2rem;
-    padding: 0.9em;
-    display: block;
-    position: relative;
-    margin-top: 10.2rem;
-    margin-left: 3.1rem;
+    border-radius: 9rem;
+    font-size: 1.6rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: inline-block;
+    margin-top: 12rem;
+    margin-left: 3rem;
     text-align: center;
 }
 
 .athird {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+.aaddon {
+    margin-top: 6.5rem;
+}
+
+.afooter {
+    padding-left: 3rem;
+    margin-right: 5rem;
+}
+
+blockquote {
+    background-color: var(--visibility-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 6.3rem;
 }
 
 .buttonlanguage {
@@ -49,50 +95,113 @@ a {
 .buttonaccept {
     font-size: 3rem;
     line-height: 1.4rem;
-    color: var(--black-color);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    margin-left: 9.5rem;
+    margin-right: 10.6rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.3rem;
+}
+
+.buttonshift {
+    background-color: var(--visibility-color);
+    border-radius: 1.5rem;
+    border: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+    margin-top: 4rem;
+    transform: rotate(45deg);
 }
 
 .buttonsent {
     font-size: 2.6rem;
+    background-color: var(--black-color);
     color: var(--white-color);
+    border-color: var(--black-color);
+    border-radius: 9rem;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.8rem;
+    margin-top: 2.1rem;
+    margin-bottom: 1.5rem;
 }
 
-h1 {
-    visibility: hidden;
+.hrequired {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--white-color);
-}
-
-.h2required {
-    visibility: hidden;
 }
 
 .h2first {
     font-size: 4rem;
+    text-align: center;
 }
 
-.h2advantage {
+.h2high {
     line-height: 1.4rem;
+    padding-left: 3rem;
+    padding-top: 20rem;
+}
+
+.h2always {
+    line-height: 1.4rem;
+    padding-left: 10rem;
+    padding-right: 3rem;
+    margin-top: 12.1rem;
+}
+
+.h2individual {
+    line-height: 1.4rem;
+    padding-left: 3rem;
+    padding-top: 8.5rem;
+}
+
+.h2our {
+    padding-top: 10.7rem;
+    text-align: center;
+}
+
+.h2testimonials {
+    padding-top: 17.1rem;
+    text-align: center;
 }
 
 .h2last {
     line-height: 4rem;
     color: var(--black-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 15rem;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.4rem;
+    padding-top: 6rem;
+    text-align: center;
 }
 
 .h3first {
     color: var(--white-color);
-}
-
-.h3next2 {
-    line-height: 1.8rem;
+    padding-top: 6rem;
+    text-align: center;
 }
 
 p {
@@ -104,11 +213,12 @@ p {
     font-weight: 700;
     font-size: 4.5rem;
     line-height: 4rem;
-    padding-top: 14.3rem;
-    width: 75%;
-    min-width: 375px;
-    max-width: 500px;
-    margin: 0 auto;
+    padding-left: 2.8rem;
+    padding-right: 2.5rem;
+    padding-top: 13.4rem;
+    width: 100%;
+    max-width: 380px;
+    margin-left: auto;
 }
 
 .pscroll {
@@ -119,38 +229,144 @@ p {
 .pwe {
     font-size: 1rem;
     line-height: 1.4rem;
+    padding-left: 8rem;
+    padding-right: 0.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.2rem;
 }
 
 .pusing {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     line-height: 1.8rem;
     color: var(--white-color);
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.p6 {
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 .psolutions {
+    font-size: 0.8rem;
     line-height: 1.4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
-.padvantage {
-    font-size: 1.8rem;
+.pweare {
+    font-size: 1.3rem;
     line-height: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+}
+
+.pwearealways {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    text-align: right;
+}
+
+.pour {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    margin-top: 3rem;
 }
 
 .pcomment {
-    font-size: 1.4rem;
+    color: var(--white-color);
+    font-size: 1.3rem;
     line-height: 1.8rem;
+    padding-left: 2.6rem;
+    padding-right: 2rem;
+    padding-top: 6.5rem;
+    padding-bottom: 4rem;
 }
 
 .pfooter {
-    font-size: 1.4rem;
+    color: var(--white-color);
+    font-size: 1.2rem;
     line-height: 3rem;
+    padding-left: 3rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.li6first {
+    background-color: var(--visibility-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    margin-top: 4.6rem;
+    margin-left: 3rem;
+    margin-bottom: 3.7rem;
+    width: 14.1rem;
+    display: inline-block;
+}
+
+.li6 {
+    background-color: var(--visibility-color);
+    border-radius: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3.7rem;
+    width: 14.1rem;
+    display: inline-block;
+}
+
+.li6last {
+    background-color: var(--visibility-color);
+    border-radius: 2rem;
+    margin-left: 3rem;
+    width: 14.1rem;
+    display: inline-block;
+}
+
+.liathird {
+    background-color: var(--visibility-color);
+    border-radius: 2rem;
+    padding: 1.5rem 0rem;
+    margin-top: 8.1rem;
+}
+
+.width-1146 {
+    width: 100%;
+    max-width: 1146px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 header {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: var(--visibility-color);
 }
 
 footer {
-    background-color:rgba(255, 255, 255, .15);
+    background-color: var(--visibility-color);
+    padding-top: 2.5rem;
 }
 
+.Ihungry {
+    transform: translate(-35px, 0);
+}
+
+.indent {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
