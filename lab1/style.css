@@ -99,7 +99,6 @@ blockquote {
     border-color: rgba(255, 255, 255, 0);
     margin-left: 9.5rem;
     margin-right: 10.6rem;
-    margin-top: 1.8rem;
     margin-bottom: 2.3rem;
 }
 
@@ -229,10 +228,8 @@ p {
 .pwe {
     font-size: 1rem;
     line-height: 1.4rem;
-    padding-left: 8rem;
     padding-right: 0.6rem;
     padding-top: 1.6rem;
-    padding-bottom: 1.2rem;
 }
 
 .pusing {
@@ -359,14 +356,21 @@ header {
 
 footer {
     background-color: var(--visibility-color);
-    padding-top: 2.5rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.7rem;
 }
 
 .Ihungry {
-    transform: translate(-35px, 0);
+    transform: translate(-25px, -75px);
 }
 
 .indent {
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+.bird-and-text {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
 }
