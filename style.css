@@ -480,12 +480,14 @@ img {
         padding-top: 13.4rem;
         width: 100%;
         max-width: 1150px;
-        margin-left: auto;
+        margin: 0 auto;
     }
 
     .ourflex {
         display: flex;
-        justify-content: space-around;
+        max-width: 1300px;
+        justify-content: space-between;
+        margin: 0 auto;
     }
 
     .inputform {
@@ -502,5 +504,25 @@ img {
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
+    }
+
+    .imgbands {
+        padding-left: 93rem;
+        padding-right: 0.5rem;
+    }
+
+    .asecond {
+        font-size: 2.5rem;
+    }
+
+    .whenflex {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4rem;
     }
 }
