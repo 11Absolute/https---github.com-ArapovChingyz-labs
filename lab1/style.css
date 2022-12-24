@@ -464,11 +464,43 @@ img {
     justify-content: flex-end;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1100px) {
     .wowlist {
         margin-right: 15.5rem;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5rem;
         justify-items: end
+    }
+
+    .pwhen {
+        font-size: 12rem;
+        line-height: 12rem;
+        padding-left: 25.5rem;
+        padding-right: 32rem;
+        padding-top: 13.4rem;
+        width: 100%;
+        max-width: 1150px;
+        margin-left: auto;
+    }
+
+    .ourflex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .inputform {
+        padding-left: 3rem;
+        padding-right: 35rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .buttonsent {
+        padding-left: 25rem;
+        padding-right: 25rem;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
 }
