@@ -46,7 +46,11 @@ a {
 }
 
 .afirst {
+    padding-left: 3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 0.9rem;
     font-size: 2.3rem;
+    display: inline-block;
 }
 
 .asecond {
@@ -66,11 +70,9 @@ a {
 .athird {
     font-size: 2.1rem;
     line-height: 2.1rem;
-    text-align: center;
-}
-
-.aaddon {
-    margin-top: 6.5rem;
+    padding: 2rem;
+    display: inline-block;
+    width: 28rem;
 }
 
 .afooter {
@@ -107,10 +109,7 @@ blockquote {
     background-color: var(--visibility-color);
     border-radius: 1.5rem;
     border: none;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 2rem 1.5rem;
     margin-left: 3.9rem;
     margin-right: 3.9rem;
     margin-top: 4rem;
@@ -170,7 +169,6 @@ h2 {
 .h2individual {
     line-height: 1.4rem;
     padding-left: 3rem;
-    padding-top: 8.5rem;
 }
 
 .h2our {
@@ -193,14 +191,14 @@ h2 {
 }
 
 h3 {
+    color: var(--white-color);
     font-size: 1.4rem;
-    padding-top: 6rem;
+    margin-top: 0.7rem;
     text-align: center;
 }
 
-.h3first {
-    color: var(--white-color);
-    padding-top: 6rem;
+.h3others {
+    color: var(--black-color);
     text-align: center;
 }
 
@@ -222,15 +220,33 @@ p {
 }
 
 .pscroll {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 3rem;
 }
 
+.scrolldown {
+    color: var(--white-color);
+    rotate: 90deg;
+    width: 180px;
+    transform-origin: bottom left;
+    position: absolute;
+    /* transform: translateX(100%);  */
+    display: flex;
+    gap: 1em;
+}
+
+hr {
+    flex-grow: 1;
+    align-self: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
 .pwe {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.4rem;
-    padding-left: 8.1rem;
-    padding-right: 0.6rem;
+    padding-left: 9.7rem;
+    padding-right: 1rem;
     padding-top: 1.6rem;
 }
 
@@ -295,7 +311,7 @@ p {
     line-height: 1.8rem;
     padding-left: 2.6rem;
     padding-right: 2rem;
-    padding-top: 6.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 4rem;
 }
 
@@ -314,6 +330,7 @@ li {
     background-color: var(--visibility-color);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
+    padding-top: 1.5rem;
     margin-top: 4.6rem;
     margin-left: 3rem;
     margin-bottom: 3.7rem;
@@ -323,17 +340,31 @@ li {
 
 .li6 {
     background-color: var(--visibility-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
-    margin-left: 3rem;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
     margin-bottom: 3.7rem;
+    width: 14.1rem;
+    display: inline-block;
+}
+
+.li6_2 {
+    background-color: var(--visibility-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    padding-top: 1.5rem;
+    margin-left: 3rem;
     width: 14.1rem;
     display: inline-block;
 }
 
 .li6last {
     background-color: var(--visibility-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
-    margin-left: 3rem;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
     width: 14.1rem;
     display: inline-block;
 }
@@ -341,8 +372,15 @@ li {
 .liathird {
     background-color: var(--visibility-color);
     border-radius: 2rem;
-    padding: 1.5rem 0rem;
     margin-top: 8.1rem;
+    text-align: center;
+}
+
+.lifacebook {
+    margin-top: 12.7rem;
+    margin-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .width-1146 {
@@ -364,11 +402,73 @@ footer {
 
 .Ihungry {
     position: absolute;
-    bottom: 0;
-    left: -10px;
+    bottom: -25px;
+    left: 3px;
 }
 
 .indent {
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.imgbands {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding-left: 16.4rem;
+    padding-right: 1.5rem;
+}
+
+.imgdisplay {
+    transform: translate(-35px,0);
+}
+
+.imgphone {
+    transform: translate(-150px, -150px);
+}
+
+.imgspike {
+    transform: translate(70px, 0px);
+}
+
+.imgborder {
+    display: block;
+    border-radius: 0 0 20px 20px;
+}
+
+.imgpeople {
+    transform: translate(-110px, 10px);
+    border-radius: 50%;
+}
+
+.imgstrelka1 {
+    transform: rotate(-45deg);
+}
+
+.imgstrelka2 {
+    transform: rotate(-45deg);
+}
+
+.wowlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+}
+
+.ulflex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media all and (min-width: 768px) {
+    .wowlist {
+        margin-right: 15.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem;
+        justify-items: end
+    }
 }
